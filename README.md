@@ -1,6 +1,6 @@
 # LaLine.no
 
-![alt text]https://images.finncdn.no/dynamic/640w/2012/4/vertical-4/25/2/280/041/22_1541867200.jpg)
+![alt text](https://images.finncdn.no/dynamic/640w/2012/4/vertical-4/25/2/280/041/22_1541867200.jpg)
 
 ![alt text](https://images.finncdn.no/dynamic/640w/2012/4/vertical-4/25/2/280/041/22_1155283811.jpg)
 
