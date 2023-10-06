@@ -28,7 +28,7 @@
 
 ![](https://images.finncdn.no/dynamic/640w/2012/4/vertical-4/25/2/280/041/22_1531630547.jpg)
 
-![](/assets/laline_hekk.jpg)
+![](https://raw.githubusercontent.com/larskristianhaga/laline.no/main/assets/laline_hekk.jpg)
 
 
 ---
