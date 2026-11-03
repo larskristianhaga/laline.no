@@ -17,19 +17,10 @@ jobs:
     steps:
       - name: "Checkout code"
         uses: actions/checkout@v7
-        with:
-          submodules: true
-
-      - name: "Build Hugo"
-        uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78
-        with:
-          hugo-version: "latest"
-          extended: true
-      - run: hugo --minify
 
       - name: "Deploy Hugo"
         uses: BunnyWay/actions/deploy-site@931a74b9c45ea9f9f01435fbbf1649830e67d3b3
         with:
           site: "laline"
-          directory: "public"
+          directory: "."
           api_key: ${{ secrets.BUNNYNET_API_KEY }}
