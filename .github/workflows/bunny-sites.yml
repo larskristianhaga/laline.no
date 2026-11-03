@@ -18,9 +18,9 @@ jobs:
       - name: "Checkout code"
         uses: actions/checkout@v7
 
-      - name: "Deploy Hugo"
+      - name: "Deploy site"
         uses: BunnyWay/actions/deploy-site@931a74b9c45ea9f9f01435fbbf1649830e67d3b3
         with:
           site: "laline"
-          directory: "."
+          directory: "docs"
           api_key: ${{ secrets.BUNNYNET_API_KEY }}
