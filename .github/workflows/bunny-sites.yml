@@ -24,3 +24,10 @@ jobs:
           site: "laline"
           directory: "docs"
           api_key: ${{ secrets.BUNNYNET_API_KEY }}
+
+      - name: "Prune old deploys"
+        env:
+          BUNNYNET_API_KEY: ${{ secrets.BUNNYNET_API_KEY }}
+        run: |
+          npm install -g @bunny.net/cli@0.19.0
+          bunny sites deployments prune laline --keep 2 --force
