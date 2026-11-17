@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: "Checkout code"
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
 
       - name: "Deploy site"
         uses: BunnyWay/actions/deploy-site@931a74b9c45ea9f9f01435fbbf1649830e67d3b3
